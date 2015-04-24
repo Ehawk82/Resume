@@ -17,7 +17,9 @@
                              "<br /> Skills",
                              "Firm understanding of multiple engineering disciplines.  Concrete, Masonry, Carpentry, Plumbing, Electric. <br /> Basic understaning of HTML5, CSS, and JavaScript(JSON, Jquery, nodeJS )",
                              "<br /> Comments & Miscellaneous",
-                             "I am looking to learn and never stop learning.  I believe I am a good team player and work well with others.  I am willing to relocate to anywhere that can help me develop in to an expert programmer.  Currently I am trying to master JavaScript.  I know and understand Jquery, however my personal intentions are to master JS first before using other scripts. I can use JSON to store objects to local storage properly.  I know how to dynamically add HTML through JS rather than storing the elements in the HTML DOM. I am aware that I have a lot to learn, and I am humble about it."
+                             "I am looking to learn and never stop learning.  I believe I am a good team player and work well with others.  I am willing to relocate to anywhere that can help me develop in to an expert programmer.  Currently I am trying to master JavaScript.  I know and understand Jquery, however my personal intentions are to master JS first before using other scripts. I can use JSON to store objects to local storage properly.  I know how to dynamically add HTML through JS rather than storing the elements in the HTML DOM. I am aware that I have a lot to learn, and I am humble about it.",
+                             "Portfolio",
+                             "<a href='http://www.ehawk.us/fictionary.html' target='_blank'>Fictionary</a> is a jquery powered information tool for mythology.  I hope to develop a JavaScript tool to help this grow faster <br /> <a href='http://www.ehawk.us/Graz.html' target='_blank'>ToDo App</a> is a app that uses local storage and JSON to save and display items. <br /> <a href='http://www.ehawk.us/Timer.html' target='_blank'>Timer</a> is an app I made to familiarize myself with timeouts and math using the date object. <br /> <a href='http://www.ehawk.us/home1.html' target='_blank'>First To Do app</a> I made to familiarize myself with HTML5 and CSS using Javascript for functionality. <br /> "
                             ];
                 Elems = "<div id='headWrap'><h3 id='heading'></h3><span id='headInfo'></span></div>";
                 Elems += "<div id='wrapper'><div id='div1'><h4 id='h4div1'></h4><div id='div1Info'></div></div>";
@@ -26,6 +28,7 @@
                 Elems += "<div id='div4'><h4 id='h4div4'></h4><div id='div4Info'></div></div>";
                 Elems += "<div id='div5'><h4 id='h4div5'></h4><div id='div5Info'></div></div>";
                 Elems += "<div id='div6'><h4 id='h4div6'></h4><div id='div6Info'></div></div>";
+                Elems += "<div id='div7'><h4 id='h4div7'></h4><div id='div7Info'></div></div>";
                 Elems += "<div id='footer'></div></div>";
                 body.innerHTML = Elems;
                 document.getElementById("heading").innerHTML = textElems[0];
@@ -42,6 +45,8 @@
                 document.getElementById("div5Info").innerHTML = textElems[11];
                 document.getElementById("h4div6").innerHTML = textElems[12];
                 document.getElementById("div6Info").innerHTML = textElems[13];
+                document.getElementById("h4div7").innerHTML = textElems[14];
+                document.getElementById("div7Info").innerHTML = textElems[15];
             },
             loadStyle: function () {
                 var header, styleSheet;
