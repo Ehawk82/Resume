@@ -4,12 +4,12 @@
 hr{
    width:70%;
 }
-#div1Info, #div2Info, #div3Info, #div4Info, #div5Info, #div6Info {
+.infoC {
    text-align:left;
    margin:auto;
    width:60%;
 }
-#h4div1, #h4div2, #h4div3, #h4div4, #h4div5, #h4div6 {
+.h4C {
    width:70%;
    margin:auto;
 }
